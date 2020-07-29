@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@1,500&family=Raleway:wght@400;500;600&display=swap");
+
+$secendaryBg: #00d1ff;
+$thBg: #f1d700;
+$fourthBg: #000000;
+
+$fontMontserrat: "Montserrat", sans-serif;
+$fontPlayfair: "Playfair Display", serif;
+$Raleway: "Raleway", sans-serif;
+
+$text: ("center", "left", "right");
+@each $t in $text {
+  .#{$t} {
+    text-align: #{$t};
+  }
+}
